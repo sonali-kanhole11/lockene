@@ -1,0 +1,77 @@
+
+.main-container{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+.heading{
+    font-size:50px;
+}
+
+.container{
+    background-color: rgb(231, 231, 231);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  
+
+}
+
+.cards{
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow:  4px  4px black ;
+ 
+}
+p{
+    color: #464040;
+    font-size: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    background-size: cover;
+}
+
+
+@media (min-width:400) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:600) {
+    .container{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (min-width:700) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    
+}
+@media (max-width:900) {
+    .container{
+        flex-wrap: wrap;
+    }
+    
+}
